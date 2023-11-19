@@ -1,9 +1,10 @@
+import Nav from "./compenents/Nav";
 
 function App() {
 
   return (
     <div className="App">
-      Hello
+      <Nav/>
     </div>
   );
 }
