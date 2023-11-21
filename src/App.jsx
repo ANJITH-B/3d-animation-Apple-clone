@@ -1,3 +1,4 @@
+import Jumbotron from "./compenents/Jumbotron";
 import Nav from "./compenents/Nav";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
+      <Jumbotron/>
     </div>
   );
 }
